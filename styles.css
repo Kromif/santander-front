@@ -29,6 +29,14 @@ li {
     display: inline;
   }
 
+.fixed-header{
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0; 
+}
+
 .header > * {
     display: inline-block;
     font-size: 16px;
@@ -68,4 +76,8 @@ li {
     display: inline;
     margin-right: 25px;
     margin-left: 25px;
+  }
+
+  .promo{
+      display: flex;
   }
